@@ -3,7 +3,7 @@ import React, { useEffect, useRef } from "react";
 // import "bootstrap/dist/css/bootstrap.min.css";
 // import "bootstrap/dist/js/bootstrap.bundle.min.js";
 // import 'jquery/dist/jquery.min.js';
-import "@/global";
+import "./global";
 import ReactSummernote from "react-summernote";
 
 interface SummernoteComponentProps {
