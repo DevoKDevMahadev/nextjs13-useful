@@ -6,16 +6,8 @@ import React, { useEffect, useRef } from "react";
 import "./global";
 import ReactSummernote from "react-summernote";
 
-interface SummernoteComponentProps {
-  content: string;
-  onChange: (newContent: string) => void;
-}
-
-const SummernoteComponent: React.FC<SummernoteComponentProps> = ({
-  content,
-  onChange,
-}) => {
-  const editorRef = useRef<HTMLDivElement>(null);
+const SummernoteComponent = ({ content, onChange }) => {
+  const editorRef = useRef(null);
   return (
     // <textarea ref={editorRef} value={content}></textarea>
     <ReactSummernote
@@ -23,7 +15,7 @@ const SummernoteComponent: React.FC<SummernoteComponentProps> = ({
       disabled={true}
       // height={"100%"}
       value={content}
-      onInit={(e: any) => e?.summernote("code", content)}
+      onInit={(e) => e?.summernote("code", content)}
       options={{
         innerHeight: "100%",
         outerHeight: "100%",
@@ -48,4 +40,6 @@ const SummernoteComponent: React.FC<SummernoteComponentProps> = ({
   );
 };
 
-export default SummernoteComponent;
+// export default SummernoteComponent;
+
+module.exports = SummernoteComponent;

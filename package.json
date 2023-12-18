@@ -1,0 +1,25 @@
+{
+  "name": "summernote-editor",
+  "version": "1.0.0",
+  "description": "summernote-editor for react",
+  "main": "summernote-editor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevoKDevMahadev/nextjs13-useful.git"
+  },
+  "keywords": [
+    "summernote"
+  ],
+  "devDependencies": {
+    "react-summernote": "^2.0.2"
+  },
+  "author": "DKDMD",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevoKDevMahadev/nextjs13-useful/issues"
+  },
+  "homepage": "https://github.com/DevoKDevMahadev/nextjs13-useful#readme"
+}
