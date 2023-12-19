@@ -2,5 +2,5 @@
 src/
 .babelrc
 src/constants/
-# config.json
-# tsconfig.json
+config.json
+tsconfig.json
