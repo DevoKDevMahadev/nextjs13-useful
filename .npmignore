@@ -1,0 +1,6 @@
+# Exclude source files
+src/
+.babelrc
+src/constants/
+config.json
+tsconfig.json

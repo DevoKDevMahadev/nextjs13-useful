@@ -1,25 +1,43 @@
 {
-  "name": "summernote-editor",
-  "version": "1.0.0",
-  "description": "summernote-editor for react",
-  "main": "summernote-editor.js",
+  "name": "nextjs13-useful",
+  "version": "1.0.19",
+  "description": "SummernoteComponent",
+  "main": "lib/SummernoteComponent.js",
   "scripts": {
+    "build": "babel src -d lib",
+    "prepublishOnly": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DevoKDevMahadev/nextjs13-useful.git"
   },
   "keywords": [
+    "summernote-editor",
     "summernote"
   ],
-  "devDependencies": {
-    "react-summernote": "^2.0.2"
-  },
   "author": "DKDMD",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/DevoKDevMahadev/nextjs13-useful/issues"
   },
-  "homepage": "https://github.com/DevoKDevMahadev/nextjs13-useful#readme"
+  "homepage": "https://github.com/DevoKDevMahadev/nextjs13-useful#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.23.4",
+    "@babel/core": "^7.23.6",
+    "@babel/preset-env": "^7.23.6",
+    "@babel/preset-react": "^7.23.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "dependencies": {
+    "browserfs": "^1.4.3",
+    "react-summernote": "^2.0.2"
+  }
 }
