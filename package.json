@@ -1,6 +1,6 @@
 {
   "name": "nextjs13-useful",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "description": "SummernoteComponent",
   "main": "lib/SummernoteComponent.js",
   "scripts": {
